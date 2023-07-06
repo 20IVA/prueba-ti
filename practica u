@@ -1,4 +1,4 @@
-texto = "hola mundo python este es mi primer escrito"
+texto = "hola mundo python este es mi primer escrit"
 cont_a = 0
 
 for i in texto:
