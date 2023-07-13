@@ -1,0 +1,30 @@
+lista_producto = []
+
+flag=True
+while flag:
+     try:
+        nombreproducto =input("Nombre del producto:")
+        marcaproducto =input("Nombre del producto:")
+        costoproducto = int(input("cantidad del producto"))
+        cantidadproducto = int(input("cantidad del producto"))
+
+     except ValueError:
+          print("ALGO SALIO MAL INTENTALO OTRA VEZ")
+     else:
+        producto["nombre"]= nombreproducto
+        producto["marca"]= marcaproducto
+        producto["costo"]= costoproducto
+        producto["cantidad"]= cantidadproducto
+        lista_producto.append(producto)
+        producto = {}
+        pregunta = input("desea agregar mas productos")
+        if str(pregunta) != "SI":
+            Flag = False
+
+        print(lista_producto)
+
+ 
+ 
+  
+
+    
