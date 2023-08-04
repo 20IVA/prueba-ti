@@ -1,3 +1,4 @@
+from productos import crearproductos, listarproductos
 from productos import crearproductos, listarproductos, ventaproductos
 
 def menu():
